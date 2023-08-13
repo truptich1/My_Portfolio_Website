@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(13, 13, 63);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(156, 91, 217);
+  font-size: 1.07rem;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+  align-items: center;
+}
+.firstSection > div {
+  width: 40%;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+
+.leftSection .buttons {
+  padding: 10px 0;
+}
+.leftSection .btn {
+  padding: 8px;
+  background: hsl(238, 59%, 16%);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.rightSection img {
+  width: 80%;
+  padding-top: 20px;
+}
+.purple {
+  color: rgb(156, 91, 217);
+}
+.text-gray {
+  color: gray;
+}
+#element {
+  color: rgb(156, 91, 217);
+}
+
+/* .secondSection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .image-top {
+        width:23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 15px;
+      }
+
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      } */
+
+/* About Heading */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  padding: 10px;
+}
+/* Profile Pic Size */
+.rightSection img {
+  width: 420px;
+  padding-left: 100px;
+  height: 400px;
+}
+
+/* About Description */
+.about-text h2 {
+  font-size: 60px;
+}
+.about-text h2 span {
+  color: rgb(156, 91, 217);
+}
+.about-text h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about-text p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+/* Horizontal Line */
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+#services {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+
+.sub-title span {
+  color: rgb(156, 91, 217);
+}
+.container {
+  padding: 90px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+/* All Boxes Style  */
+
+.services-list div {
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px rgb(30, 21, 150), 1px 1px 40px rgb(30, 21, 150);
+}
+
+.services-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.services-list div h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.services-list div a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.read {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop is ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.read:hover {
+  background: rgb(120, 3, 156);
+  color: #081b29;
+  box-shadow: 0 0 20px #0ef;
+}

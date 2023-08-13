@@ -1,0 +1,72 @@
+<!-- <section class="secondSection">
+        <span class="text-gray">What I have done so far </span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+            
+    
+              <div class="vertical">
+                <img class="image-top" src="Android.png" alt="" />
+                <div class="vertical-title">Android App Developer<br> (2021-2022)</div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus mollitia sapiente quae itaque laborum veniam
+                  maiores excepturi veritatis, asperiores saepe facilis,
+                  reprehenderit soluta?
+            </div>
+            </div>
+              <div class="vertical">
+                <img class="image-top" src="Industrial.png" alt="" />
+                <div class="vertical-title">Industrial Training (2021-2022)</div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus mollitia sapiente quae itaque laborum veniam
+                  maiores excepturi veritatis, asperiores saepe facilis,
+                  reprehenderit soluta?
+              </div>
+              </div>
+              
+
+          <div class="vertical">
+            <img class="image-top" src="Web-Design.png" alt="" />
+            <div class="vertical-title"> Web Designer (2021-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus mollitia sapiente quae itaque laborum veniam
+              maiores excepturi veritatis, asperiores saepe facilis,
+              reprehenderit soluta?
+          </div>
+        </div>
+          <div class="vertical">
+            <img class="image-top" src="Web Dev.png" alt="" />
+            <div class="vertical-title"> Web Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus mollitia sapiente quae itaque laborum veniam
+              maiores excepturi veritatis, asperiores saepe facilis,
+              reprehenderit soluta?
+          </div>
+        </div>
+          <div class="vertical">
+            <img class="image-top" src="React.png" alt="" />
+            <div class="vertical-title"> React.js Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus mollitia sapiente quae itaque laborum veniam
+              maiores excepturi veritatis, asperiores saepe facilis,
+              reprehenderit soluta?
+          </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Java Icon.webp" alt="" />
+            <div class="vertical-title"> Java Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus mollitia sapiente quae itaque laborum veniam
+              maiores excepturi veritatis, asperiores saepe facilis,
+              reprehenderit soluta?
+          </div>
+        </div>
+      </section>
+      <div><hr/></div> -->
+      
